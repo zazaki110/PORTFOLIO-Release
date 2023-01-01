@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio_css copy3.css">
+    <!-- <link rel="stylesheet" href="portfolio_css copy3.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>宮本雄一</title>
+    
+    <link rel="stylesheet" media="screen and (max-width: 1920px)" type="text/css" href="portfolio_css copy3.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" type="text/css" href="tablet.css"><!-- 768px以下タブレット用 -->
+    <link rel="stylesheet" media="screen and (max-width: 450px)" type="text/css" href="mobile.css"><!-- 450px以下　スマホ用 -->
+    <link rel="stylesheet" media="screen and (max-width: 352px)" type="text/css" href="mobile_1.css"><!-- 352px以下　スマホ用 -->
+    <link rel="stylesheet" media="screen and (max-width: 330px)" type="text/css" href="mobile_2.css"><!-- 330px以下　スマホ用 -->
+    <link rel="stylesheet" media="screen and (max-width: 310px)" type="text/css" href="mobile_3.css"><!-- 310px以下　スマホ用 -->
     
 </head>
 
 
-<header class="header_main"><div class="top_border">  <button  id="TOP_direct" class="TOP_direct Button_color">Top</button>        <button id="About_direct" class="About_direct Button_color">About</button> <button id="SKILL_direct" class="SKILL_direct Button_color">Skill</button><button  id="Works_direct" class="Works_direct Button_color">Works</button> <button  id="Contact_direct" class="Contact_direct Button_color">Contact</button>     </div><div class="header_menu"></div></header>
-<body>
-  
 
+<body>
+
+
+  <!-- <header class="header_main"><div class="top_border">  <button  id="TOP_direct" class="TOP_direct Button_color">Top</button><button id="About_direct" class="About_direct Button_color">About</button><button id="SKILL_direct" class="SKILL_direct Button_color">Skill</button><button  id="Works_direct" class="Works_direct Button_color">Works</button><button  id="Contact_direct" class="Contact_direct Button_color">Contact</button></div><div class="header_menu"></div></header> -->
+  <header id="header"class="header_main">
+    <nav class="main-bar">
+      <div class="g">
+    <ul id="g-navi"class="g-navi">
+      <li class="menu"><button class="top_bu" id="top_bu">Top</button></li>
+      <li class="menu"><button class="about_bu" id="about_bu">About</button></li>
+      <li class="menu"><button class="skill_bu" id="skill_bu">Skill</button></li>
+      <li class="menu"><button class="works_bu" id="works_bu">Works</button></li>
+      <li class="menu"><button class="contact_bu" id="contact_bu">Content</button></li>
+    </ul>
+  </div>
+  </nav>
+  </header>
   <div class="top_pos" id="TOP_pos"></div>
   <div class="top_picture"><img src="001.jpg"  class="top_jpg" alt=""width="1900" height="920" ></div>
   <div class="font_top">Portfolio</div>
@@ -24,7 +46,7 @@
 
   <div class="about_pos"  id="about_pos" ></div>
   <div class="about" id="about">ABOUT</div>
-    <div class="my_picture"> <img src="002.png" alt=""width="300" height="300"> </div> 
+    <div class="my_picture"> <img src="002.png" class="my_pic_jpg" alt=""width="300" height="300"> </div> 
   <div class="Self-introduction_position">
     
      <div class="neko">
@@ -49,27 +71,70 @@
   <div class="Skill" id="skill">
     
    <div class="Skill_text">SKILL</div>
-     <div class="my_skill"> <img src="SKILL表.png" alt=""width="500" height="400"> </div> 
+     <div class="my_skill"> <img src="新スキル.png" class="my_skill_pic" alt=""width="500" height="400"> </div> 
      <input  type="button" value="Works"id="WORKS"  class="Works_button works_button_color">
   </div>
 
   <div class="Works_Scroll_pos"id="Works_Scroll_pos"></div>
   <div class="Works"id="Works">Works</div>
-  <div class="my_application"> <img src="作成したアプリ.png" alt=""width="1000" height="300"> </div> 
-  
-  
-  <div class="apuris">
-  <div class="Twitter_clone1"><a  class="kakeibo_link" href=""><strong>アプリゲーム</strong></a><a href="https://github.com/zazaki110/Twitterclone"><img  class="Git_kakeibo"  src="gitpic.png" alt="Git"></a></div>
-  <div class="Twitter_clone1_setumei">です<p></p>
-    <div class="use_language1">Laravel/MySQL</div></div>
-  <div class="Twitter_clone2"><a  class="kakeibo_link" href=""><strong>シンプル家計簿</strong></a><a href="https://github.com/zazaki110/Twitterclone"><img  class="Git_kakeibo"  src="gitpic.png" alt="Git"></a></div>
-  <div class="Twitter_clone2_setumei">会員登録制のシンプルな家計簿サイトです<p></p>
-  <div class="use_language2">Laravel/MySQL</div></div>
-  <div class="Twitter_clone3"><a  class="Twitter_cione_link" href=""><strong>Twitterクローン</strong></a><a href="https://github.com/zazaki110/Twitterclone"><img  class="Git_Twitter"  src="gitpic.png" alt="Git"></a></div>
-  <div class="Twitter_clone3_setumei">Twitterのクローンです<p></p>
-  <div class="use_language3">HTML/CSS/Javascript/PHP/MySQL</div></div>
 
-  </div>
+  <!--PC表示用 -->
+  <div class="my_application"> <img src="新制作したアプリ.png" class="my_appli_pic" alt=""width="1000" height="300"> </div> 
+
+  <div class="apuris">
+   <div class="Twitter_clone1"><a  class="kakeibo_link" href=""><strong>スマホアクションゲーム</strong></a><a href=""><img  class="Git_Unity_PC"  src="gitpic.png" alt="Git"></a></div>
+   <div class="Twitter_clone1_setumei">3Dスマホゲームです<p></p>
+   <div class="use_language1">Unity/C#</div></div>
+   <div class="Twitter_clone2"><a  class="kakeibo_link" href="https://desolate-wildwood-89455.herokuapp.com/login"><strong>シンプル家計簿</strong></a><a href="https://github.com/zazaki110/kakeibo"><img  class="Git_kakeibo"  src="gitpic.png" alt="Git"></a></div>
+   <div class="Twitter_clone2_setumei">会員登録制のシンプルな家計簿サイトです<p></p>
+   <div class="use_language2">Laravel/MySQL</div></div>
+   <div class="Twitter_clone3"><a  class="Twitter_cione_link" href="https://tunagarunakama.com/TwitterClone/Controllers/sign-in.php"><strong>Twitterクローン</strong></a><a href="https://github.com/zazaki110/Twitterclone"><img  class="Git_Twitter"  src="gitpic.png" alt="Git"></a></div>
+   <div class="Twitter_clone3_setumei">Twitterのクローンです<p></p>
+   <div class="use_language3">HTML/CSS/Javascript/PHP/MySQL</div></div>
+
+   </div>
+  <!--PC表示用 -->
+
+
+
+<!--mobile表示用-->
+
+<!--Twitterクローン説明-->
+<div class="my_mobile_apuris">
+<div class="my_application_mobile1"> <img src="TwitterClone.png" class="my_appli_mobile_pic1" alt=""width="300" height="300"> </div>
+<a  class="Twitter_clone_mobile_link" href="https://tunagarunakama.com/TwitterClone/Controllers/sign-in.php"><strong class="appli_name_mobil1">Twitterクローン</strong></a>
+<a class="Git_Tiwtter" href="https://github.com/zazaki110/Twitterclone"><img  class="Git_Tiwtter_clone" width="50" height="50" src="gitpic.png" alt="Git"></a>
+<div class="Twitter_clone_setumei_mobile">Twitterのクローンです<p></p>
+<div class="use_language1_mobile">HTML/CSS/Javascript/PHP/MySQL</div></div>
+
+<!--Twitterクローン説明-->
+
+<!-- 家計簿アプリ説明 -->
+<div class="my_application_mobile2"> <img src="家計簿サイト.png" class="my_appli_mobile_pic2" alt=""width="300" height="300"> </div>
+<a  class="kakeibo_mobile_link" href="https://desolate-wildwood-89455.herokuapp.com/login"><strong class="appli_name_mobil2">シンプルWEB家計簿</strong></a>
+<a  class="Git_kakeibo" href="https://github.com/zazaki110/kakeibo"><img  class="" width="50" height="50" src="gitpic.png" alt="Git"></a>
+<div class="kakeibo_setumei_mobile">会員登録制のシンプルな家計簿サイトです<p></p>
+<div class="use_language2_mobile">Laravel/MySQL</div></div>
+<!-- 家計簿アプリ説明 -->
+
+<!-- Unityアプリ説明 -->
+<div class="my_application_mobile3"> <img src="制作中.png" class="my_appli_mobile_pic3" alt=""width="300" height="300"> </div> 
+<a  class="unity_mobile_link" href=""><strong class="appli_name_mobil3">3Dアクションゲーム</strong></a>
+<a class="Git_Unity" href=""><img   width="50" height="50" src="gitpic.png" alt="Git"></a>
+<div class="unity_setumei_mobile">3Dスマホゲーム<p></p>
+<div class="use_language3_mobile">Unity/C#</div></div>
+</div>
+</div> 
+<!-- Unityアプリ説明 -->
+
+<!--mobile表示用-->
+
+
+
+
+
+
+
 
   <div class="Contact_bu"><input  type="button" id="CONTACT_BU" value="Contact" class="Contact_button contact_button_color"></div>
   
@@ -77,9 +142,9 @@
   
   
   <div class="Contact_name" id="Contact_name">Contact</div>
-  
-  <div class="my_Phone"> <img src="携帯番号.png" alt=""width="550" height="400"> </div>
-<div class="my_Mail"> <img src="メールアドレス.png" alt=""width="550" height="400"> </div>
+  <div class="Contact_pos" id="Contact_pos"></div>
+  <div class="my_Phone"> <img class="my_Phone_number"   src="携帯番号.png" alt=""width="550" height="400"> </div>
+  <div class="my_Mail"> <img class="my_mailaddress" src="メールアドレス.png" alt=""width="550" height="400"> </div>
 <div class="my_numbar"> miyamotoyuichi8326@gmail.com</div>
 <div class="my_git"><a href="https://github.com/zazaki110"><img class="git_pic" src="gitpic.png" alt="git"></a></div>
 <button id="TOP_Button" class="TOP_return"><img class="top_pic" src="上矢印.png"  alt="git"></button>
@@ -110,11 +175,20 @@
     });
 
     $("#CONTACT_BU").click(function () {
-      
-      const position = $('#Contact_name').offset().top;
+      //スマホ用
+      const position = $('#Contact_pos').offset().top;
       const speed = 500;
       $("html,body").animate({scrollTop:position},speed);
     });
+
+    $("#CONTACT_BU").click(function () {
+      
+      const position = $('#Contact_nam').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+    });
+
+    
 
     $("#about_Button").click(function () {
       
@@ -134,6 +208,48 @@
 
 
 
+/////////////////////////////スマホ/////////////////////////////////
+    $("#about_bu").click(function () {
+      
+      const position = $('#about_pos').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+
+    });
+
+    $("#skill_bu").click(function () {
+      
+      const position = $('#skill').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+    });
+
+    $("#works_bu").click(function () {
+      
+      const position = $('#Works_Scroll_pos').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+    });
+
+    $("#contact_bu").click(function () {
+      
+      const position = $('#Contact_name').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+    });
+
+    $("#top_bu").click(function () {
+      
+      const position = $('#TOP_pos').offset().top;
+      const speed = 500;
+      $("html,body").animate({scrollTop:position},speed);
+    });
+/////////////////////////////スマホ/////////////////////////////////
+
+
+
+
+/////////////////////////////PC/////////////////////////////////
     $("#About_direct").click(function () {
       
       const position = $('#about_pos').offset().top;
@@ -169,7 +285,7 @@
       const speed = 500;
       $("html,body").animate({scrollTop:position},speed);
     });
-
+/////////////////////////////PC/////////////////////////////////
 
 </script>
 

@@ -1,0 +1,1206 @@
+
+body{
+   width: 100%;
+    overflow-x: hidden;
+    
+}
+
+div.about_pos{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top:100px;
+}
+
+
+div.top_picture{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 42px;
+    left: -8px;
+}
+img.top_jpg{
+    width: 100%;
+    height: 100%;
+}
+
+div.font_top{
+    text-align: center;
+    position: relative;
+    top: -120px;
+    font-size: 40px;
+    left: 0px;
+}
+
+div.about{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    font-size: 40px;
+}
+div.about_pos{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: -30px;
+}
+
+div.about_bu_Fixed{
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+
+button.about_button{
+    position: relative;
+    text-align: center;
+    top: -100px;
+    left: 0px;
+    width: 80px;
+    height:40px;
+    background-color: rgb(29,128,159);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 0ex;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.about_Button_color:hover {
+    background-color: rgb(64, 184, 224);
+}
+
+
+div.my_picture{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 30px;  
+}
+img.my_pic_jpg{
+    width: 70%;
+    height: 0%;
+}
+
+div.Self-introduction_position{
+    position: relative;
+    text-align: center;
+    height: 0px;
+    
+}
+div.neko{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: -25px;
+    
+
+}
+
+
+.skill_button{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 0px;
+    width: 80px;
+    height:40px;
+    background-color: rgb(52,58,64);
+    color: aliceblue;
+    font-size: 20px;
+    border: 0ex;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.skill_button_color:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+
+
+div.Skill{
+    z-index: 60;
+    text-align: center;
+    position: relative;
+    left: -8px;
+    top: 500px;
+    background-color: #1D809F;
+    height: 800px;
+    width: 100%;
+}
+div.Skill_text{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+    left: 10px;
+    color: #ffffff;
+}
+
+div.my_skill{
+    text-align: center;
+    position: relative;
+    top: 220px;  
+    left: 5px;
+}
+img.my_skill_pic{
+    width: 90%;
+    height: 90%;
+}
+
+
+
+div.Works_pos{
+    
+    position: relative;
+    top: -300px;
+  
+}
+
+.Works_button{
+    text-align: center;
+    position: relative;
+    top: 290px;
+    left: 10px;
+    width: 80px;
+    height:40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    border: 0ex;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.works_button_color:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+
+div.Works{
+    z-index: 60;
+    text-align: center;
+    position: relative;
+    top: 630px;
+    font-size: 50px;
+}
+
+div.Works_Scroll_pos{
+    text-align: center;
+    position: relative;
+    top: 580px;
+
+    
+}
+img.my_appli_pic{
+width: 90%;
+height: 90%;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    div.my_application_mobile1{
+        display: block!important;
+    }
+    div.my_application_mobile2{
+        display: block!important;
+    }
+    div.my_application_mobile3{
+        display: block!important;
+    } 
+
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+img.my_appli_mobile_pic1{
+    position: relative;
+    text-align: center;
+   
+}
+img.my_appli_mobile_pic2{
+    position: relative;
+    text-align: center;
+   
+}
+div.my_mobile_apuris{
+    text-align: center;
+    position: relative;
+    top: 700px;  
+}
+
+div.Twitter_clone_setumei_mobile{
+    position: relative;
+    text-align: center;
+    top: 85px;
+    height: 0px;
+    right: 46px;
+    font-size: 20px;
+}
+
+a.Twitter_clone_mobile_link{
+    position: relative;
+    top: 80px;
+    left: -60px;
+}
+
+strong.appli_name_mobil1{
+font-size: 16px;
+}
+
+img.Git_Tiwtter_clone{
+    position: relative;
+    top: 95px;
+    left: 67px;
+}
+a.Git_kakeibo{
+    position: relative;
+    top: 195px;
+    left: 50px;
+}
+a.Git_Unity{
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+div.my_application_mobile1{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+div.my_application_mobile2{
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+div.my_application_mobile3{
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+a.kakeibo_mobile_link{
+    position: relative;
+    top: 180px;
+    left: -60px;
+}
+a.unity_mobile_link{
+    position: relative;
+    top: 230px;
+    left: -60px;
+}
+div.kakeibo_setumei_mobile{
+    position: relative;
+    text-align: center;
+    top: 190px;
+    height: 0px;
+    right: 13px;
+    font-size: 16px;
+}
+div.unity_setumei_mobile{
+    position: relative;
+    text-align: center;
+    top: 240px;
+    height: 0px;
+    right: 105px;
+    font-size: 16px;
+}
+div.use_language1_mobile{
+    position: relative;
+    left: 40px;
+    top: -10px;
+    font-size: 17px;
+}
+div.use_language2_mobile{
+    position: relative;
+    left: -88px;
+    top: -10px;
+    font-size: 17px;
+}
+div.use_language3_mobile{
+    position: relative;
+    left: -20px;
+    top: -10px;
+    font-size: 17px;
+}
+div.my_application{
+/* mobile表示だと非表示にする */
+    display: none; 
+    text-align: center;
+    position: relative;
+    top: 840px;  
+}
+div.apuris{
+    /* mobile表示だと非表示にする */
+    display: none; 
+    text-align: center;
+    position: relative;
+    top: 860px;
+    left: -40px;
+}
+div.Twitter_clone1{
+    position: relative;
+    top: -10px;
+    height: 0px;
+    right: -305px;
+    font-size: 10px;
+}
+div.Twitter_clone1_setumei{
+    position: relative;
+    top: 30px;
+    height: 0px;
+    right: -255px;
+    font-size: 20px;
+}
+
+div.Twitter_clone2{
+    position: relative;
+    top: 14px;
+    right: 15px;
+    font-size: 30px;
+    height: 1px;
+}
+div.Twitter_clone2_setumei{
+    position: relative;
+    top: 32px;
+    height: 0px;
+    right: -45px;
+    font-size: 17px;
+}
+
+div.Twitter_clone3{
+    position: relative;
+    top: 15px;
+    right: 352px;
+    font-size: 30px;
+    height: 1px;
+}
+div.Twitter_clone3_setumei{
+    position: relative;
+    top: 30px;
+    height: 0px;
+    right: 356px;
+    font-size: 20px;
+}
+.Contact_button{
+    
+    position: relative;
+    top: 290px;
+    left: 0px;
+    width: 120px;
+    height:50px;
+    background-color: rgb(29,128,159);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 0ex;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.contact_button_color:hover {
+    background-color: rgb(64, 184, 224);
+}
+
+
+
+
+
+
+div.Contact_bu{
+    text-align: center;
+    position: relative;
+    top: 820px;
+    height: 10px;
+}
+div.Contact{
+    position: relative;
+    text-align: center;
+    background-color: rgb(53, 51, 51);
+    top: 1300px;
+    left: -8px;
+    height: 1300px;
+}
+div.Contact_pos{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+div.Contact_name{
+    position: relative;
+    top: 170px;
+    left: 5px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+div.my_Phone{
+    position: relative;
+    top: 300px;
+    left: 0px;
+    height: 0px;
+}
+img.my_Phone_number{
+    width: 300px;
+    height: 300px;
+}
+img.my_mailaddress{
+    width: 300px;
+    height: 300px;
+}
+div.my_Mail{
+    position: relative;
+    top: 680px;
+    left: 0px;
+    height: 0px;
+}
+div.my_numbar{
+    position: relative;
+    top: 910px;
+    left: 0px;
+    height: 0px;
+    font-size: 18px;
+    color: aliceblue;
+}
+div.my_git{
+    position: relative;
+    top: 1060px;
+    left: 0px;
+}
+img.git_pic{
+    width: 120px;
+    height: 120px;
+}
+
+div.copy_light{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: 1039px;
+    height: 30px;
+}
+div.copy_ligth_text{
+    position: relative;
+    top: 5px;
+    left: 0px;
+
+}
+
+button.TOP_return{
+    position: relative;
+    top: 1030px;
+    left: 150px;
+    width: 50px;
+    height:50px;
+    font-size: 20px;
+    cursor: pointer;
+    cursor: hand;
+}
+img.top_pic{
+    width: 30px;
+    height:30px;
+}
+
+/* header.header_main{
+    text-align: center;
+    position:fixed;
+    z-index: 140;
+    top: 0px;
+    height: 0px;
+    
+} */
+div.header_menu{
+    text-align: center;
+    position: relative;
+    background-color: #ffffff;
+    width: 200%;
+    height: 50px;
+    opacity: 0.5;
+}
+button.About_direct{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    top: -35px;
+    left: 29px;
+    font-size: 25px;
+}
+button.SKILL_direct{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    top: -35px;
+    left: 18px;
+    font-size: 25px;
+}
+button.Works_direct{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    top: -35px;
+    left: 10px;
+    font-size: 25px;
+}
+button.Contact_direct{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    top: -35px;
+    left: 0px;
+    font-size: 25px;
+}
+
+button.TOP_direct{
+    
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    top: -35px;
+    left: 38px;
+    font-size: 25px;
+}
+
+.Button_color:hover {
+    color: rgb(90, 88, 88)
+}
+ul {
+    
+    list-style: none;
+    font-size: 30px;
+    
+  }
+
+div.top_border
+{   
+     text-align: center;
+     position: relative;
+     background-color: #ffffff;
+     top: 40px;
+     left: -20px;
+     z-index: 150;
+     
+}
+@media only screen and (max-width: 360px) {
+    div.top_border
+{   
+     text-align: center;
+     position: relative;
+     background-color: #ffffff;
+     top: 40px;
+     left: 25px;
+     z-index: 150;
+}
+}
+@media only screen and (max-width: 350px) {
+    div.top_border
+{   
+     text-align: center;
+     position: relative;
+     background-color: #ffffff;
+     top: 40px;
+     left: 25px;
+     z-index: 150;
+}
+}
+
+
+
+li {
+    line-height:25px;
+}
+li.itigyou{
+    position: relative;
+    top: 0px;
+    left: -4px;
+    font-size: 14px;
+}
+
+li.nigyou{
+    position: relative;
+    top: 0px;
+    left: 1px;
+    font-size: 14px;
+}
+li.sangyou{
+    position: relative;
+    top: 0px;
+    left: 19px;
+    font-size: 14px;
+}
+li.yongyou{
+    position: relative;
+    top: 0px;
+    left: 1px;
+    font-size: 14px;
+}
+li.Gogyou{
+    position: relative;
+    top: 0px;
+    left: 17px;
+    font-size: 14px;
+}
+li.rokugyou{
+    position: relative;
+    top: 0px;
+    left: 15px;
+    font-size: 13px;
+}
+li.nanagyou{
+    position: relative;
+    top: 0px;
+    left: 24px;
+    font-size: 13px;
+}
+li.hatigyou{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-size: 14px;
+}
+li.kyugyou{
+    position: relative;
+    top: 0px;
+    left: 8px;
+    font-size: 14px;
+}
+
+img.Git_Twitter{
+    position: relative;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    top: -35px;
+}
+img.Git_kakeibo{
+    position: relative;
+    left: 80px;
+    width: 50px;
+    height: 50px;
+    top: -36px;
+}
+
+a.Twitter_cione_link{
+    position: relative;
+    top: -50px;
+    left: 30px;
+    text-decoration: none;
+    color: black;
+}
+a.kakeibo_link{
+    position: relative;
+    top: -50px;
+    left: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+div.use_language3{
+    position: relative;
+    left: 54px;
+    top: -10px;
+    font-size: 19px;
+}
+div.use_language2{
+    position: relative;
+    left: -86px;
+    top:   -4px;
+    font-size: 20px;
+}
+li.menu{
+    display: inline;
+    font-size: 20px;
+}
+
+div.g{
+    position: relative;
+    left: 0px;
+    top: -30px;
+}
+
+nav.main-bar{
+    display: inline;
+    width: 0%;
+    
+}
+button.top_bu{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+button.about_bu{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+
+button.skill_bu{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+
+button.works_bu{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+button.contact_bu{
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+
+
+@media only screen and (max-width: 430px) {
+    
+
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 19px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 19px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 19px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 19px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 17px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 17px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 17px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 17px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 15px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 15px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 15px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 15px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    div.about_pos{
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: -30px;
+    }
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 11px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 11px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 11px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 11px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 310px) {
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 9px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 9px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 9px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 9px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    div.g{
+        position: relative;
+        left: -10px;
+        top: -30px;
+    }
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 7px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 7px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 7px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 7px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    button.top_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        width: 20px;
+        left: -20px;
+    }
+    button.about_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        width: 20px;
+        left: -10px;
+    }
+    
+    button.skill_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        width: 20px;
+        left: 10px;
+    }
+    
+    button.works_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        width: 20px;
+        left: 15px;
+    }
+    button.contact_bu{
+        position: relative;
+        cursor: pointer;
+        cursor: hand;
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        width: 20px;
+        left: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    li.menu{
+        display: inline;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 347px) {
+    li.menu{
+        display: inline;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    li.menu{
+        display: inline;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 310px) {
+    li.menu{
+        display: inline;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    li.menu{
+        display: inline;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    li.menu{
+        display: inline;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    li.menu{
+        display: inline;
+        font-size: 11px;
+    }
+}

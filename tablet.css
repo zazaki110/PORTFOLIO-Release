@@ -192,22 +192,9 @@ div.Works_Scroll_pos{
     
 }
 
+
+
 /* PCとタブレット表示では非表示にする*/
-@media only screen and (max-width: 1920px) {
-
-    div.my_application_mobile1{
-        display: none!important;
-    }
-    div.my_application_mobile2{
-        display: none!important;
-    }
-    div.my_application_mobile3{
-        display: none!important;
-    } 
-
-    .pc { display: none !important; }
-    .sp { display: block !important; }
-}
 
 
 
@@ -227,16 +214,16 @@ div.apuris{
 }
 div.Twitter_clone1{
     position: relative;
-    top: 10px;
+    top: -10px;
     height: 0px;
-    right: -365px;
-    font-size: 25px;
+    right: -305px;
+    font-size: 20px;
 }
 div.Twitter_clone1_setumei{
     position: relative;
     top: 30px;
     height: 0px;
-    right: -326px;
+    right: -255px;
     font-size: 20px;
 }
 
@@ -289,70 +276,9 @@ div.Twitter_clone3_setumei{
 }
 
 
-@media only screen and (min-width: 1920px) {
-    div.my_mobile_apuris{
-        display: none;
-    }
-li.menu{
-    display: inline;
-    
-}
-div.g{
-    position: relative;
-    left: 600px;
-    top: -30px;
-}
-nav.main-bar{
-    display: inline;
-    
-}
-button.top_bu{
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    border: none;
-    background: transparent;
-    font-size: 40px;
-    left: -30px;
-}
-button.about_bu{
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    border: none;
-    background: transparent;
-    font-size: 40px;
-}
 
-button.skill_bu{
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    border: none;
-    background: transparent;
-    font-size: 40px;
-    left: 48px;
-}
 
-button.works_bu{
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    border: none;
-    background: transparent;
-    font-size: 40px;
-    left: 80px;
-}
-button.contact_bu{
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    border: none;
-    background: transparent;
-    font-size: 40px;
-    left: 110px;
-}
-}
+
 
 div.Contact_bu{
     text-align: center;
@@ -452,7 +378,6 @@ div.header_menu{
     left: -30px;
     opacity: 0.5;
 }
-
 button.About_direct{
     position: relative;
     cursor: pointer;
@@ -506,7 +431,6 @@ button.TOP_direct{
     left: 570px;
     font-size: 30px;
 }
-
 
 .Button_color:hover {
     color: rgb(90, 88, 88)
@@ -591,13 +515,7 @@ img.Git_kakeibo{
     height: 50px;
     top: -36px;
 }
-img.Git_Unity_PC{
-    position: relative;
-    left: 30px;
-    width: 50px;
-    height: 50px;
-    top: -36px;
-}
+
 a.Twitter_cione_link{
     position: relative;
     top: -50px;
@@ -623,12 +541,6 @@ div.use_language2{
     position: relative;
     left: -86px;
     top:   -4px;
-    font-size: 20px;
-}
-div.use_language1{
-    position: relative;
-    left: -47px;
-    top:   -10px;
     font-size: 20px;
 }
 
