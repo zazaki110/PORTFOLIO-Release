@@ -256,49 +256,28 @@ div.Twitter_clone2_setumei{
 }
 div.tuiki02{
     position: relative;
-    top:10px;
+    top:-560px;
     height: 0px;
-    right: 83px;
-    font-size: 17px;
+    right: 20px;
+    font-size: 20px;
 }
 div.mail{
     position: relative;
     top:-10px;
     height: 0px;
-    right:-50px;
-    font-size: 11px;
+    right:78px;
+    font-size: 14px;
 
 }
 div.pass{
     position: relative;
     top:20px;
     height: 0px;
-    right:7px;
-    font-size: 11px;
+    right:150px;
+    font-size: 14px;
 
 }
-div.tuiki01{
-    position: relative;
-    top:5px;
-    height: 0px;
-    right: 27px;
-    font-size: 17px;
-}
-div.tuiki_setumei1{
-    position: relative;
-    top:-5px;
-    height: 0px;
-    right: 27px;
-    font-size: 17px;
-}
-div.mail1{
-    position: relative;
-    top:-10px;
-    height: 0px;
-    right:-50px;
-    font-size: 11px;
 
-}
 div.pass1{
     position: relative;
     top:20px;
