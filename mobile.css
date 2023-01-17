@@ -1204,3 +1204,83 @@ button.contact_bu{
         font-size: 11px;
     }
 }
+div.tuiki02{
+    position: relative;
+    top:-1020px;
+    height: 0px;
+    right: -10px;
+    font-size: 13px;
+}
+div.mail{
+    position: relative;
+    top:-3px;
+    height: 0px;
+    right:5px;
+    font-size: 13px;
+
+}
+div.pass{
+    position: relative;
+    display: inline;
+    top:30px;
+    height: 0px;
+    width: 0px;
+    right:70px;
+    font-size: 13px;
+
+}
+@media only screen and (max-width: 330px) {
+    div.tuiki02{
+        position: relative;
+        top:-1020px;
+        height: 0px;
+        right: -20px;
+        font-size: 12px;
+    }
+    div.mail{
+        position: relative;
+        top:-3px;
+        height: 0px;
+        right:5px;
+        font-size: 12px;
+    
+    }
+    div.pass{
+        position: relative;
+        display: inline;
+        top:25px;
+        height: 0px;
+        width: 0px;
+        right:65px;
+        font-size: 12px;
+    
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    div.tuiki02{
+        position: relative;
+        top:-870px;
+        height: 0px;
+        right: -10px;
+        font-size: 11px;
+    }
+    div.mail{
+        position: relative;
+        top:-3px;
+        height: 0px;
+        right:5px;
+        font-size: 11px;
+    
+    }
+    div.pass{
+        position: relative;
+        display: inline;
+        top:25px;
+        height: 0px;
+        width: 0px;
+        right:60px;
+        font-size: 11px;
+    
+    }
+}
