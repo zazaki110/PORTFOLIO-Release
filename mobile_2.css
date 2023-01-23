@@ -276,7 +276,7 @@ body{
  }
  a.Git_Unity{
      position: relative;
-     top: 250px;
+     top: 260px;
      left: 45px;
  }
  div.my_application_mobile1{
@@ -704,7 +704,13 @@ body{
  }
  
  
- 
+ @media only screen and (max-width: 330px) {
+    div.my_application_mobile3{
+       position: relative;
+       text-align: center;
+       top: 270px;
+   }
+}
  
  
  

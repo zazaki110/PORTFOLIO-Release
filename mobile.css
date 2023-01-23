@@ -202,6 +202,7 @@ height: 90%;
 }
 
 
+
 @media only screen and (max-width: 450px) {
 
     div.my_application_mobile1{
@@ -265,7 +266,7 @@ a.Git_kakeibo{
 }
 a.Git_Unity{
     position: relative;
-    top: 250px;
+    top: 290px;
     left: 50px;
 }
 div.my_application_mobile1{
@@ -290,7 +291,7 @@ a.kakeibo_mobile_link{
 }
 a.unity_mobile_link{
     position: relative;
-    top: 230px;
+    top: 260px;
     left: -60px;
 }
 div.kakeibo_setumei_mobile{
@@ -304,7 +305,7 @@ div.kakeibo_setumei_mobile{
 div.unity_setumei_mobile{
     position: relative;
     text-align: center;
-    top: 240px;
+    top: 270px;
     height: 0px;
     right: 105px;
     font-size: 16px;
@@ -870,6 +871,11 @@ button.contact_bu{
         background: transparent;
         font-size: 17px;
     }
+    a.unity_mobile_link{
+        position: relative;
+        top: 265px;
+        left: -60px;
+    }
 }
 @media only screen and (max-width: 380px) {
     button.top_bu{
@@ -959,7 +965,15 @@ button.contact_bu{
         font-size: 13px;
     }
 }
+
+
 @media only screen and (max-width: 330px) {
+    a.unity_mobile_link{
+        position: relative;
+        top: 25px;
+        left: -60px;
+    }
+
     div.about_pos{
         text-align: center;
         position: relative;
