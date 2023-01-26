@@ -5,6 +5,10 @@ body{
    
 }
 
+ul.profile_minutes{
+    font-size: 20px;
+}
+
 div.top_pos{
 
     text-align: center;
@@ -570,42 +574,42 @@ li.itigyou{
 li.nigyou{
     position: relative;
     top: 0px;
-    left: 8px;
+    left: 4px;
 }
 li.sangyou{
     position: relative;
     top: 0px;
-    left: 48px;
+    left: 31px;
 }
 li.yongyou{
     position: relative;
     top: 0px;
-    left: 8px;
+    left: 4px;
 }
 li.Gogyou{
     position: relative;
     top: 0px;
-    left: 42px;
+    left: 27px;
 }
 li.rokugyou{
     position: relative;
     top: 0px;
-    left: 62px;
+    left: 40px;
 }
 li.nanagyou{
     position: relative;
     top: 0px;
-    left: 83px;
+    left: 54px;
 }
 li.hatigyou{
     position: relative;
     top: 0px;
-    left: 27px;
+    left: 17px;
 }
 li.kyugyou{
     position: relative;
     top: 0px;
-    left: 24px;
+    left: 15px;
 }
 
 img.Git_Twitter{
