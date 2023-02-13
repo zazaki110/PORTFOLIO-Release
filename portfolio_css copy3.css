@@ -4,7 +4,27 @@ body{
     overflow-x: hidden;
    
 }
-
+b.Twitter_link{
+    position: absolute;
+    font-size: 230px;
+    left: 440px;
+    top: -10px;
+    opacity:0
+}
+b.kakeibo_link{
+    position: absolute;
+    font-size: 230px;
+    left: 790px;
+    top: -10px;
+    opacity:0
+}
+b.Unity_link{
+    position: absolute;
+    font-size: 230px;
+    left: 1130px;
+    top: -16px;
+    opacity:0
+}
 ul.profile_minutes{
     font-size: 20px;
 }
